@@ -1,5 +1,7 @@
 # ESE156 Remote Sensing Class
 
+## Course Overview
+
 ESE156 will cover the basics of remote sensing with a focus on atmospheric and surface remote sensing using spectroscopy. The class will guide you through typical steps of relevance to all remote sensing problem, i.e. how to set up and formulate your "Forward model", applying constrained and un-constrained, linear and non-linear inverse modeling and perform error characterization of measurements and inverted properties. The class syllabus is still not written in stone but follows these general steps:
 
 **Week 1:** Basic introduction and simple inverse technique by linearizing Lambert-Beer’s law
@@ -18,7 +20,18 @@ ESE156 will cover the basics of remote sensing with a focus on atmospheric and s
 
 **Weeks 8-10:** Hands-on examples or paper.
 
-### Getting started: 
+## Homework/Projects
+
+We will use a total of four hands-on problem sets, which require python coding in Jupyter. Problem sets can be submitted as Jupyter notebook html export.  
+
+## Workflow
+
+If you're using GitHub Desktop, these general instructions will help:
+
+* <https://guides.github.com/activities/forking/>
+* <https://help.github.com/desktop/guides/contributing/>
+
+## Getting started with python: 
 
 The ESE156 Remote Sensing Class will make extensive use of the Jupyter notebook environment as well as python as a coding tool. If you aren't familiar with Python yet, there are good resources online, e.g.
 
@@ -30,5 +43,8 @@ Jupyter: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 My goal is to have everyone set up with python and jupyter notebook in week 1. If needed, we will go through some basic python steps in the beginning as well (and/or communicate with the TA). 
 
+## Grading
 
+* Class Participation – 30%
+* Homework – 70%
 
