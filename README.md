@@ -2,7 +2,7 @@
 
 ## Course Overview
 
-ESE156 will cover the basics of remote sensing with a focus on atmospheric and surface remote sensing using spectroscopy. The class will guide you through typical steps of relevance to all remote sensing problem, i.e. how to set up and formulate your "Forward model", applying constrained and un-constrained, linear and non-linear inverse modeling and perform error characterization of measurements and inverted properties. The class syllabus is still not written in stone but follows these general steps:
+ESE156 will cover the basics of remote sensing with a focus on atmospheric and surface remote sensing using spectroscopy. The class will guide you through typical steps of relevance to all remote sensing problem, i.e. how to set up and formulate your "Forward model", applying constrained and un-constrained, linear and non-linear inverse modeling and perform error characterization of measurements and inverted properties. Typically, each 1.5hrs class consists of a mix of slides and jupyter notebooks, with interactive class involvement in the last 30min. The class syllabus is still not written in stone but follows these general steps:
 
 **Week 1:** Basic introduction and simple inverse technique by linearizing Lambert-Beer’s law
 
