@@ -1,5 +1,16 @@
 # ESE156 Remote Sensing Class
 
+To cite Numerical Recipes:
+“To be genuinely useful, a fitting procedure should provide (i) parameters,
+(ii) error estimates on the parameters, and (iii) a statistical
+measure of goodness-of-fit. When the third item suggests that the
+model is an unlikely match to the data, then items (i) and (ii) are
+probably worthless. Unfortunately, many practitioners of parameter
+estimation never proceed beyond item (i). They deem a fit acceptable if a graph of data and model ‘looks good’. This approach is known as
+chi-by-eye. Luckily, its practitioners get what they deserve.”
+
+We will try to cover all aspects mentioned above in our Remote Sensing Class here, which is essentially a form of parameter estimation and bears similarity to fitting a line through a set of measured (x,y) points.
+
 ## Course Overview
 
 ESE156 will cover the basics of remote sensing with a focus on atmospheric and surface remote sensing using spectroscopy. The class will guide you through typical steps of relevance to all remote sensing problem, i.e. how to set up and formulate your "Forward model", applying constrained and un-constrained, linear and non-linear inverse modeling and perform error characterization of measurements and inverted properties. The focus on this class is more applied, using a scripting language like python to solve numerical problems you might have encountered in more theoretical classes. Even though Python is the preferred language for this class, you can use Julia or Matlab or "real" programming languages such as C/C++, Fortran, etc). Typically, each 1.5hrs class consists of a mix of slides and jupyter notebooks, with interactive class involvement in the last 30min. The class syllabus is still not written in stone but follows these general steps:
