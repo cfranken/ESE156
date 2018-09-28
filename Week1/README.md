@@ -5,7 +5,7 @@
 What are we doing here?
 
 1. Introduction
-    * Put name on sticky note on back of monitor
+    * Put name on sticky note on back of monitor (well, forget this if we are only a few...)
     * Discuss what the class is going to cover
     * Everyone introduce themselves
         * Name
