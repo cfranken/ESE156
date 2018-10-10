@@ -59,6 +59,7 @@ Data Science: https://jakevdp.github.io/PythonDataScienceHandbook/
 Jupyter: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
 Extensions for Jupyter notebook: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
+https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator
 
 My goal is to have everyone set up with python and jupyter notebook in week 1. If needed, we will go through some basic python steps in the beginning as well (and/or communicate with the TA). 
 
