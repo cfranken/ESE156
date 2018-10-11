@@ -1,5 +1,11 @@
 # ESE156 Remote Sensing Class
 
+**Instructor: Christian Frankenberg**; cfranken@caltech.edu (203 Linde+Robinson), Office hours: Just drop by (usually around after 9am).
+
+**TA: Liyin He:** lhe@caltech.edu, office hours TBD
+
+**Course Material:** Most Python Notebooks on github, additional material on ftp://fluo.gps.caltech.edu/XYZT_ESE156/
+
 To cite Numerical Recipes:
 “To be genuinely useful, a fitting procedure should provide (i) parameters,
 (ii) error estimates on the parameters, and (iii) a statistical
@@ -33,7 +39,7 @@ ESE156 will cover the basics of remote sensing with a focus on atmospheric and s
 
 ## Homework/Projects
 
-We will use a total of four hands-on problem sets, which require python coding in Jupyter. Problem sets can be submitted as Jupyter notebook html export.  
+We will use weekly hands-on problem sets, which require python coding in Jupyter. Problem sets can be submitted as Jupyter notebook html export.  
 
 ## Workflow
 
@@ -52,10 +58,14 @@ Data Science: https://jakevdp.github.io/PythonDataScienceHandbook/
 
 Jupyter: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
+Extensions for Jupyter notebook: https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html
+https://github.com/Jupyter-contrib/jupyter_nbextensions_configurator
+
 My goal is to have everyone set up with python and jupyter notebook in week 1. If needed, we will go through some basic python steps in the beginning as well (and/or communicate with the TA). 
 
 ## Grading
 
-* Class Participation – 30%
-* Homework – 70%
+* Class Participation – 20%
+* Homework – 50%
+* Project - 30%
 
