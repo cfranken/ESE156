@@ -4,7 +4,7 @@
 
 **TA: Liyin He:** lhe@caltech.edu, office hours TBD
 
-**Course Material:** Most Python Notebooks on github, additional material on ftp://fluo.gps.caltech.edu/XYZT_ESE156/
+**Course Material:** Most Python Notebooks on github, additional material on <ftp://fluo.gps.caltech.edu/XYZT_ESE156/>
 
 To cite Numerical Recipes:
 “To be genuinely useful, a fitting procedure should provide (i) parameters,
