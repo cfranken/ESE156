@@ -132,15 +132,14 @@ def grid(options, args):
     counter = -1
     points = np.zeros((options.subGrid,options.subGrid,2))
     files = []
-#    for dt in (rrule.rrule(rrule.DAILY, interval=options.dTime,  dtstart=start, until=stop)):
-    for orbit_number in range(630, 670):
+    for dt in (rrule.rrule(rrule.DAILY, interval=options.dTime,  dtstart=start, until=stop)):
+#    for orbit_number in range(630, 670):
         # Set to 0 again
         mat_data[:]=0
 
 #        files = glob.glob(options.folder + dt.strftime('%Y/%m/')+ 'tropomi_*_??'+dt.strftime('%m%d')+'_*.nc4')
-        filename = '/export/data2/projects/TROPOMI_GASES/co/7_7/s5p_l2_co_0007_00' + str(orbit_number) + '.nc'
-        files.append(filename)
-        print(filename) 
+        files = glob.glob('/export/data2/projects/TROPOMI_GASES/co/7_7/s5p_l2_co_0007_006*.nc')
+#        print(filename) 
         #date_center = dt + timedelta(days=np.floor(options.dTime/2.))
         date_start = datetime(2014,1,1)
         delta = dt - date_start
@@ -164,7 +163,8 @@ def grid(options, args):
             ind2 = (lat_in>options.latMin+eps)&(lat_in<options.latMax-eps)&(lon_in<options.lonMax-eps)&(lon_in>options.lonMin+eps) 
 # NN checking if there are valid points in the box 
             ind = np.array(np.where(ind2)[0])
-            print(file, counter , len(ind),)
+            print(ind)
+            print(file, counter , 'ind is equal to', len(ind),)
             if len(ind)>10:
                 
 
@@ -281,7 +281,7 @@ def getPoints(points, vert_lat, vert_lon, n):
 def standalone_main():
     parser = OptionParser(usage="usage: %prog l2_file2")
     parser.add_option( "-o","--outFile", dest="outFile",
-                       default='s5p_l2_co_0007_00354.nc',
+                       default='co_tropomi_l3.nc',
                        help="output filename (default OCO2_SIF_map.nc)")
     parser.add_option( "--latMin", dest="latMin",
                        type=float,
@@ -296,10 +296,10 @@ def standalone_main():
                        default=1,
                        help="longitude resolution (1 degree default)")
     parser.add_option( "--startTime", dest="start",
-                       default='2014-09-06',
+                       default='2017-11-08',
                        help="default 2014-09-06")
     parser.add_option( "--stopTime", dest="stop",
-                       default='2018-09-01',
+                       default='2017-12-08',
                        help="default 2015-01-01")
     parser.add_option( "--subGrid", dest="subGrid",
                        type=int,
@@ -339,7 +339,6 @@ def standalone_main():
 
 if __name__ == "__main__":
     standalone_main()
-
 
 
 
