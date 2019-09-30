@@ -1,10 +1,10 @@
-# ESE156 Remote Sensing Class
+# ESE156 Remote Sensing Class (2019)
 
 **Instructor: Christian Frankenberg**; cfranken@caltech.edu (203 Linde+Robinson), Office hours: Just drop by (usually around after 9am).
 
-**TA: Liyin He:** lhe@caltech.edu, office hours TBD
+**TA: Newton Nguyen:** newton@caltech.edu, office hours TBD
 
-**Course Material:** Most Python Notebooks on github, additional material on ftp://fluo.gps.caltech.edu/XYZT_ESE156/
+**Course Material:** Most Python Notebooks on github, additional material on <ftp://fluo.gps.caltech.edu/XYZT_ESE156/>
 
 To cite Numerical Recipes:
 “To be genuinely useful, a fitting procedure should provide (i) parameters,
@@ -19,7 +19,7 @@ We will try to cover all aspects mentioned above in our Remote Sensing Class her
 
 ## Course Overview
 
-ESE156 will cover the basics of remote sensing with a focus on atmospheric and surface remote sensing using spectroscopy. The class will guide you through typical steps of relevance to all remote sensing problem, i.e. how to set up and formulate your "Forward model", applying constrained and un-constrained, linear and non-linear inverse modeling and perform error characterization of measurements and inverted properties. The focus on this class is more applied, using a scripting language like python to solve numerical problems you might have encountered in more theoretical classes. Even though Python is the preferred language for this class, you can use Julia or Matlab or "real" programming languages such as C/C++, Fortran, etc). Typically, each 1.5hrs class consists of a mix of slides and jupyter notebooks, with interactive class involvement in the last 30min. The class syllabus is still not written in stone but follows these general steps:
+ESE156 will cover the basics of remote sensing with a focus on atmospheric and surface remote sensing using spectroscopy. The class will guide you through typical steps of relevance to all remote sensing problem, i.e. how to set up and formulate your "Forward model", applying constrained and un-constrained, linear and non-linear inverse modeling and perform error characterization of measurements and inverted properties. The focus on this class is more applied, using a scripting language like Julia/python to solve numerical problems you might have encountered in more theoretical classes. Even though Julia is the preferred language for this class, you can use Python or Matlab or "real" programming languages such as C/C++, Fortran, etc). Typically, each 1.5hrs class consists of a mix of slides and jupyter notebooks, with interactive class involvement in the last 30min. The class syllabus is still not written in stone but follows these general steps:
 
 **Week 1:** Basic introduction and simple inverse technique by linearizing Lambert-Beer’s law
 
@@ -39,7 +39,7 @@ ESE156 will cover the basics of remote sensing with a focus on atmospheric and s
 
 ## Homework/Projects
 
-We will use weekly hands-on problem sets, which require python coding in Jupyter. Problem sets can be submitted as Jupyter notebook html export.  
+We will use weekly hands-on problem sets, which require Julia/python coding in Jupyter. Problem sets can be submitted as Jupyter notebook html export.  
 
 ## Workflow
 
@@ -50,7 +50,12 @@ If you're using GitHub Desktop, these general instructions will help:
 
 ## Getting started with python: 
 
-The ESE156 Remote Sensing Class will make extensive use of the Jupyter notebook environment as well as python as a coding tool. If you aren't familiar with Python yet, there are good resources online, e.g.
+The ESE156 Remote Sensing Class will make extensive use of the Jupyter notebook environment as well as Julia and python as a coding tool. If you aren't familiar with Julia or Python yet, there are good resources online, e.g.
+
+Julia: https://julialang.org/learning/
+https://docs.julialang.org/en/v1/manual/noteworthy-differences/index.html
+
+
 
 Install for beginners: https://www.python.org/about/gettingstarted/
 
