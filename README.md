@@ -48,7 +48,7 @@ If you're using GitHub Desktop, these general instructions will help:
 * <https://guides.github.com/activities/forking/>
 * <https://help.github.com/desktop/guides/contributing/>
 
-## Getting started with python: 
+## Getting started with Julia and python: 
 
 The ESE156 Remote Sensing Class will make extensive use of the Jupyter notebook environment as well as Julia and python as a coding tool. If you aren't familiar with Julia or Python yet, there are good resources online, e.g.
 
